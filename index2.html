@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Multiple Columns Hybrid</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<style type="text/css">
+			
+			/* CLIENT-SPECIFIC STYLES */
+			body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+			table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+			img { -ms-interpolation-mode: bicubic; }
+			
+			/* RESET STYLES */
+			img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+			table { border-collapse: collapse !important; }
+			body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+			
+			/* iOS BLUE LINKS */
+			a[x-apple-data-detectors] {
+			    color: inherit !important;
+			    text-decoration: none !important;
+			    font-size: inherit !important;
+			    font-family: inherit !important;
+			    font-weight: inherit !important;
+			    line-height: inherit !important;
+			}
+			
+			/* GMAIL BLUE LINKS */
+			u + #body a {
+			    color: inherit;
+			    text-decoration: none;
+			    font-size: inherit;
+			    font-family: inherit;
+			    font-weight: inherit;
+			    line-height: inherit;
+			}
+			
+			/* SAMSUNG MAIL BLUE LINKS */
+			#MessageViewBody a {
+			    color: inherit;
+			    text-decoration: none;
+			    font-size: inherit;
+			    font-family: inherit;
+			    font-weight: inherit;
+			    line-height: inherit;
+			}
+
+			/* Universal styles for links and stuff */
+			a { color: #b6c9c7; font-weight: bold; }
+			a:hover { color: #52d8e4; text-decoration: none; }
+			a.button:hover { background-color: #52d8e4 !important; }
+      
+			/* Responsive styles */
+			@media screen and (max-width: 600px) {
+				h1 { font-size: 24px !important; }
+				.mobile { max-width: 100% !important; width: 100% !important; }
+			}
+
+      /* interactive elements */
+      input {display: none;}
+      label {cursor: pointer;}
+      .slide {display: none;}
+      #slide1:checked ~ .slide1,
+      #slide2:checked ~ .slide2,
+      #slide3:checked ~ .slide3,
+      #slide4:checked ~ .slide4,
+      #slide5:checked ~ .slide5 {display: block;}
+
+
+		</style>
+	</head>
+	<body id="body" style="margin: 0 !important; padding: 0 !important;">
+
+    <!-- Preview text for the inbox -->
+    <div style="display: none;max-height: 0;overflow: hidden;">
+      This will be displayed underneath the subject line. Use it wisely.
+    </div>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+      <tr>
+        <td align="center">
+          <table border="0" class="mobile" cellpadding="0" cellspacing="0" width="600" role="presentation" style="background-color: #ffffff;color: #000000;font-family: sans-serif;font-size: 18px;line-height: 36px;margin: 0;padding: 0;">
+            <!-- LOGO -->
+            <tr>
+              <td align="center" style="padding: 20px;">
+                <a href="#"><img src="https://i.ibb.co/N38QZBw/art-Logo-Blue.png" width="300" border="0" style="border-radius: 25%;display: block;margin: 0 auto;" alt=""></a> 
+              </td>
+            </tr>
+            <!-- HEADLINE -->
+            <tr>
+              <td style="padding: 20px;">
+                <h1 style="margin: 0;font-size: 32px;text-align: center;">Artrageous Travel Agency</h1>
+              </td>
+            </tr>
+            <!-- HERO IMAGE -->
+            <tr>
+              <td style="padding: 20px;">
+              <!-- triggers for switching content -->
+              <input type="radio" name="slides" id="slide1" checked>
+              <input type="radio" name="slides" id="slide2">
+              <input type="radio" name="slides" id="slide3">
+              <input type="radio" name="slides" id="slide4">
+              <input type="radio" name="slides" id="slide5">
+              
+              
+              <label for="slide1" class="slide-label" style="border: 2px solid black;display: inline-block;margin: 7px;padding: 4px 15px;">Slide1</label>
+              
+              <label for="slide2" class="slide-label" style="border: 2px solid black;display: inline-block;margin: 7px;padding: 4px 15px;">Slide2</label>
+              
+              <label for="slide3" class="slide-label" style="border: 2px solid black;display: inline-block;margin: 7px;padding: 4px 15px;">Slide3</label>
+              
+              <label for="slide4" class="slide-label" style="border: 2px solid black;display: inline-block;margin: 7px;padding: 4px 15px;">Slide4</label>
+              
+              <label for="slide5" class="slide-label" style="border: 2px solid black;display: inline-block;margin: 7px;padding: 4px 15px;">Slide5</label>
+
+              <div class="slide slide1" style="background-color: red;"><img src="https://i.ibb.co/DCqbkNW/laketahoe.jpg" alt="italian town near ocean" border="0" style="border-radius: 6px;display: block;max-width: 100%;min-width: 100px;width: 100%;height: 400px;"></div>
+              <div class="slide slide2" style="background-color: blue;"><img src="https://i.ibb.co/kSG0xN7/yosemite4.jpg" alt="italian town near ocean" border="0" style="border-radius: 6px;display: block;max-width: 100%;min-width: 100px;width: 100%;height: 400px;"></div>
+              <div class="slide slide3" style="background-color: gold;"><img src="https://i.ibb.co/HnTQ29r/grandcanyon.jpg" alt="italian town near ocean" border="0" style="border-radius: 6px;display: block;max-width: 100%;min-width: 100px;width: 100%;height: 400px;"></div>
+              <div class="slide slide4" style="background-color: green;"><img src="https://i.ibb.co/0FwCL5b/oakport.jpg" alt="italian town near ocean" border="0" style="border-radius: 6px;display: block;max-width: 100%;min-width: 100px;width: 100%;height: 400px;"></div>
+              <div class="slide slide5" style="background-color: purple;"><img src="https://i.ibb.co/gSv6Gkm/waterfalls.jpg" alt="italian town near ocean" border="0" style="border-radius: 6px;display: block;max-width: 100%;min-width: 100px;width: 100%;height: 400px;"></div>
+              
+      
+              </td>
+            </tr>
+            <!-- BODY CONTENT -->
+            <tr>
+              <td style="padding: 20px;">
+                <P style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum delectus, asperiores nesciunt mollitia natus assumenda consequatur voluptas illum dolore!</P>
+                <P style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum delectus, asperiores nesciunt mollitia natus assumenda consequatur voluptas illum dolore!</P>
+                <P style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum delectus, asperiores nesciunt mollitia natus assumenda consequatur voluptas illum dolore!</P>
+              </td>
+            </tr>
+            <!-- BUTTON -->
+            <tr>
+              <td style="padding: 20px 0 60px 0;">
+                <!-- CTA generated by buttons.com -->
+                <div style="text-align: center;"><!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://artdelacruz2.com" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#5ba5f5" fillcolor="#5ba5f5">
+                    <w:anchorlock/>
+                    <center style="color:#000000;font-family:sans-serif;font-size:13px;font-weight:bold;">Travel The World!</center>
+                  </v:roundrect>
+                <![endif]--><a href="https://artdelacruz2.com"
+                style="background-color:#5ba5f5;border:1px solid #5ba5f5;border-radius:4px;color:#000000;display:inline-block; letter-spacing: 2px;word-spacing: 2px; font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;" target="_blank">Travel The World!</a></div>
+                <!--[if mso]>
+                </center>
+                </v:roundrect>
+                <![endif]-->
+              </div>
+              </td>
+            </tr>
+            <!-- Footer info: Always include unsub link! -->
+            <tr>
+              <td style="color: #bbbbbb;font-size: 16px;margin: 60px 0 0 0;padding: 4em 20px;">
+                <p style="text-align: center;"><img src="https://i.ibb.co/N38QZBw/art-Logo-Blue.png" alt="arts html email logo" ></p>
+                <p style="margin: 0 0 20px 0;">You're receiving this email because you love travelling to Europe? Good for you. Don't worry, <a href="https://example.com" target="_blank"> you can unsubscribe here </a>if you'd like.</p>
+                <p style="margin: 0 0 20px 0;">Email Sender - 12345 Any Street, City, State 90210</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      
+
+
+
+
+
+
+
+
+
+
+    </table>
+	</body>
+</html>
+
+
+
+
+
+
